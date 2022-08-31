@@ -1,0 +1,37 @@
+{
+    "id": "a60edb85-2a07-4a6d-da9c-4e37c2348a79",
+    "author": "",
+    "widgets": [
+        {
+            "id": "poi",
+            "name": "poi",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "poiLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "poiLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "poiLink",
+            "title": "poi"
+        }
+    ]
+}

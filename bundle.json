@@ -1,0 +1,22 @@
+{
+    "id": "080cfa29-c04b-4af6-a002-34db11a9520b",
+    "author": "Eutech",
+    "widgets": [
+        {
+            "id": "poi",
+            "name": "poi",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

@@ -1,0 +1,137 @@
+{
+  "version": "2.0",
+  "models": [
+    {
+      "Key": "6",
+      "Name": "POI",
+      "Definition": {
+        "version": "v2",
+        "attributes": [],
+        "flows": {
+          "blocks": [
+            {
+              "title": "Action",
+              "type": "actionstart",
+              "id": "99648547-0204-4628-9a90-71df9fd4f51b",
+              "position": {
+                "left": 106,
+                "top": 145
+              },
+              "surface": "GetNearbyItems",
+              "connections": {
+                "inputs": [],
+                "outputs": []
+              },
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "id": "output",
+                  "type": "",
+                  "label": "All Output",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
+                },
+                {
+                  "id": "__error__",
+                  "type": "error",
+                  "label": "Error",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
+                },
+                {
+                  "id": "lat",
+                  "type": "",
+                  "label": "lat"
+                },
+                {
+                  "id": "lng",
+                  "type": "",
+                  "label": "lng"
+                }
+              ],
+              "canOverrideCredentials": false,
+              "schema": "",
+              "actionName": "GetNearbyItems",
+              "preProcessService": "",
+              "published": false,
+              "static": true,
+              "debug": false,
+              "capability": "",
+              "initiate": false,
+              "docs": "",
+              "roles": []
+            }
+          ],
+          "position": {
+            "top": 0,
+            "left": 0
+          }
+        },
+        "sources": [
+          {
+            "name": "GetNearbyItems",
+            "published": false,
+            "static": true,
+            "initiate": false,
+            "canOverrideCredentials": false,
+            "schema": "",
+            "capability": "",
+            "schemaFrozen": false,
+            "docs": "",
+            "outputs": [],
+            "parameters": [
+              "lat",
+              "lng"
+            ],
+            "parametersExtended": [
+              {
+                "id": "lat"
+              },
+              {
+                "id": "lng"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "name": "GetNearbyItems",
+            "published": false,
+            "static": true,
+            "initiate": false,
+            "canOverrideCredentials": false,
+            "schema": "",
+            "capability": "",
+            "schemaFrozen": false,
+            "docs": "",
+            "outputs": [],
+            "parameters": [
+              "lat",
+              "lng"
+            ],
+            "parametersExtended": [
+              {
+                "id": "lat"
+              },
+              {
+                "id": "lng"
+              }
+            ]
+          }
+        ],
+        "uioptions": {}
+      },
+      "UIDefinition": null,
+      "MetadataDictionary": "null",
+      "Icon": "",
+      "ApiRoutes": [],
+      "JSModules": [],
+      "ModelCollections": [],
+      "Roles": []
+    }
+  ]
+}
