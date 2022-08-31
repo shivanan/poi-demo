@@ -17,7 +17,7 @@ const PoiWidget: React.FunctionComponent<IWidgetProps> = (props) => {
                
             </TitleBar>
             <div style={{flex:1}}>
-                    <h1>Point of Interest Widget</h1>
+                    <h1>Point of Interest Widget - Version 2</h1>
                 </div>
         </WidgetWrapper>
     )

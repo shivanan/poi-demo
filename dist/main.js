@@ -9590,7 +9590,7 @@ const PoiWidget = (props) => {
         React.createElement(components_1.TitleBar, { title: 'Poi' },
             React.createElement(components_1.FilterPanel, null)),
         React.createElement("div", { style: { flex: 1 } },
-            React.createElement("h1", null, "Point of Interest Widget"))));
+            React.createElement("h1", null, "Point of Interest Widget - Version 2"))));
 };
 /**
  * Register as a Widget

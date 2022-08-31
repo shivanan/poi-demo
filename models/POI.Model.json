@@ -45,17 +45,71 @@
                 {
                   "id": "lat",
                   "type": "",
-                  "label": "lat"
+                  "label": "lat",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
                 },
                 {
                   "id": "lng",
                   "type": "",
-                  "label": "lng"
+                  "label": "lng",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
                 }
               ],
               "canOverrideCredentials": false,
               "schema": "",
               "actionName": "GetNearbyItems",
+              "preProcessService": "",
+              "published": false,
+              "static": true,
+              "debug": false,
+              "capability": "",
+              "initiate": false,
+              "docs": "",
+              "roles": []
+            },
+            {
+              "title": "Action",
+              "type": "actionstart",
+              "id": "d4641593-216d-4d8c-b1de-de28b70529b5",
+              "position": {
+                "left": 59,
+                "top": 104
+              },
+              "surface": "GetPopularItems",
+              "connections": {
+                "inputs": [],
+                "outputs": []
+              },
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "id": "output",
+                  "type": "",
+                  "label": "All Output",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
+                },
+                {
+                  "id": "__error__",
+                  "type": "error",
+                  "label": "Error",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
+                }
+              ],
+              "canOverrideCredentials": false,
+              "schema": "",
+              "actionName": "GetPopularItems",
               "preProcessService": "",
               "published": false,
               "static": true,
@@ -89,12 +143,30 @@
             ],
             "parametersExtended": [
               {
-                "id": "lat"
+                "id": "lat",
+                "docs": "",
+                "example": ""
               },
               {
-                "id": "lng"
+                "id": "lng",
+                "docs": "",
+                "example": ""
               }
             ]
+          },
+          {
+            "name": "GetPopularItems",
+            "published": false,
+            "static": true,
+            "initiate": false,
+            "canOverrideCredentials": false,
+            "schema": "",
+            "capability": "",
+            "schemaFrozen": false,
+            "docs": "",
+            "outputs": [],
+            "parameters": [],
+            "parametersExtended": []
           }
         ],
         "actions": [
@@ -115,12 +187,30 @@
             ],
             "parametersExtended": [
               {
-                "id": "lat"
+                "id": "lat",
+                "docs": "",
+                "example": ""
               },
               {
-                "id": "lng"
+                "id": "lng",
+                "docs": "",
+                "example": ""
               }
             ]
+          },
+          {
+            "name": "GetPopularItems",
+            "published": false,
+            "static": true,
+            "initiate": false,
+            "canOverrideCredentials": false,
+            "schema": "",
+            "capability": "",
+            "schemaFrozen": false,
+            "docs": "",
+            "outputs": [],
+            "parameters": [],
+            "parametersExtended": []
           }
         ],
         "uioptions": {}
